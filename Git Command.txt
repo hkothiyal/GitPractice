@@ -18,8 +18,10 @@ Git:
 	Add all Files in Index: 				git add -a
 
 -----Now these files are ready to comit to git------------
-	Commit all files: 					git commit -a -m "Commiting files"
+	Commit one file:					git commit -m "Message goes here" filename
+	Commit all files: 					git commit -a -m "Message goes here"
 	Check logs:						git log
+	End log by pressing q keyword
 -----Pull file from Remote repository to local repository---------------
 	Pull file from github to git				git pull origin master
 	Pull file from github to already map local folder	git pull origin master --allow-unrelated-histories
